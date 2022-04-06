@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(rgb(226, 10, 10),rgb(29, 28, 28));
+  }
+  
+  .grid {
+    width: 25rem;
+    height:25rem;
+    border: 10px solid rgb(12, 10, 10); 
+     margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    background: linear-gradient(grey,rgb(231, 137, 137));
+    margin-top: 100px;
+  }
+  
+  .grid div {
+    /* border-radius 20px; ;
+    border:1px black solid;
+  box-sizing:border-box */
+  margin: 1px;
+  border-radius: 5px;
+
+  }
+  
+  .snake {
+    background: blue;
+    background: linear-gradient(red,blue);
+  }
+  
+  .apple {
+    background: rgb(7, 240, 27);
+    border-radius: 20px;
+  }
+  
+  .popup {
+    background: rgb(32, 31, 31);
+    width: 100px;
+    height: 50px;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    font-size:large;
+  }
+
+  .button{
+   margin-left: 300px;
+   margin-top: -200px;
+   
+  }
+
+  #top{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: yellow;
+    font-size: larger;
+  }
+  #bottom{
+    display: flex;
+    background-color: yellow;
+    font-size: larger;
+  }
+  #left{
+    display: flex;
+    margin-left: -35px;
+    margin-top: -48px;
+    background-color: yellow;
+    font-size: larger;
+  }
+  #right{
+    display: flex;
+    margin-top: -28px;
+    margin-left: 35px;
+    background-color: yellow;
+    font-size: larger;
+  }
+
+.scoreDisplay{
+    text-align: center;
+    font-size: larger;
+    height: 30px;
+    
+}
